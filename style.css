@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #252424; */
+    background-color: #ebdede;
+
+    overflow: auto;
+}
+
+.addbtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+form {
+    width: 350px;
+    /* height: 100px; */
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column
+}
+
+input {
+    width: 365px;
+    /* height: 50px; */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 365px;
+    /* height: 50px; */
+
+    /* padding: 0px 20px; */
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.task-item {
+    margin: 20px;
+    padding: 10px;
+    width: 94%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.storage{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    /* padding: 10px; */
+
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.dropdown{
+    position: fixed;
+    margin:20px 375px;
+}
+.text{
+    position: fixed;
+    margin:10px 450px;
+}
